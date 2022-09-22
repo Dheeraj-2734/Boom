@@ -29,7 +29,7 @@ l_y=525
 l_status=True
 
 #ship
-ship_image = pygame.image.load("spiderplant.png")
+ship_image = pygame.image.load("Ship.xcf")
 s_x=[ ]
 s_y=[ ]
 s_change= [ ]
