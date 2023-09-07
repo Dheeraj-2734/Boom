@@ -7,29 +7,29 @@ pygame.init()
 window = pygame.display.set_mode((600,600))
 pygame.display.set_caption("kjhgfdtyuiolkbvcx")
 
-pygame.display.set_icon(pygame.image.load("spiderplant.png"))
+pygame.display.set_icon(pygame.image.load("boom/spiderplant.png"))
 
 #background music
 # mixer.music.load("bg.wav")
 # mixer.music.play(-1)
 
-laser = mixer.Sound("buush.wav")
-blast = mixer.Sound("buduk.wav")
+laser = mixer.Sound("boom/buush.wav")
+blast = mixer.Sound("boom/buduk.wav")
 
 #jet
-jet_image = pygame.image.load("jet.xcf")
+jet_image = pygame.image.load("boom/jet.xcf")
 j_x=300
 j_y=525
 j_change=0
 
 #laser
-laser_image = pygame.image.load("laser.xcf")
+laser_image = pygame.image.load("boom/laser.xcf")
 l_x=300
 l_y=525
 l_status=True
 
 #ship
-ship_image = pygame.image.load("Ship.xcf")
+ship_image = pygame.image.load("boom/Ship.xcf")
 s_x=[ ]
 s_y=[ ]
 s_change= [ ]
